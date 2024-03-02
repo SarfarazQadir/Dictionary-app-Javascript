@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style.css">
+<title>Dictionary App</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="main">
+            <table align="center">
+                <tr>
+                    <td><input style="border-radius: 7px;" type="text" id="inp" class="form-control" placeholder="Enter a Word">
+                    </td>
+                    <td><input type="button" onclick="GetDict()" class="btn btn-warning btn-lg" value="search" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Word: <span id="word"></span></p>
+                        <p>Phonetic: <span id="pho"></span></p>
+                        <p>Defination: <span id="def"></span></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.main{
+    border: 1px solid black;
+    background-color: yellow;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    height: 300px;
+    font-size: 17px;
+}
